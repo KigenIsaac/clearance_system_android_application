@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usertype">
+        <item>Admin</item>
+        <item>Student</item>
+    </string-array>
+    <string-array name="typeofAdmin">
+        <item>Dean of faculty</item>
+        <item>Library</item>
+        <item>Student affairs</item>
+        <item>Finance</item>
+        <item>Registrar</item>
+    </string-array>
+</resources>

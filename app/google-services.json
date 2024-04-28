@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659923361420",
+    "project_id": "clearance-system-b7917",
+    "storage_bucket": "clearance-system-b7917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659923361420:android:ffeae9d5af5fbe1d0fa5a9",
+        "android_client_info": {
+          "package_name": "com.nola.clearancesystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBONcYi3Hg3DKuYIejs_UDYkUGmkfXWvRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

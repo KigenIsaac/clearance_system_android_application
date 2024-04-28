@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/images"
+        android:contentDescription="@string/logo" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="@string/password"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:inputType="textPassword"
+        android:autofillHints="password
+" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button_background"
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:onClick="login"
+       android:text="@string/login"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:text="No Account? Create Account"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:onClick="openRegistration"
+        />
+
+
+</LinearLayout>

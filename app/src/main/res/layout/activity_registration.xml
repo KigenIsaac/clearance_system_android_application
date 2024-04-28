@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/images" />
+
+    <Spinner
+        android:id="@+id/typeofuser"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:entries="@array/usertype"
+        />
+    <Spinner
+        android:visibility="gone"
+        android:id="@+id/typeofadmin"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:entries="@array/typeofAdmin"
+        />
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="reg no"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:hint="name"
+         />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+         />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/register"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:onClick="register"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+         />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:layout_height="48dp"
+        android:onClick="openLogin"
+        android:text="Have an Account Login"/>
+
+</LinearLayout>

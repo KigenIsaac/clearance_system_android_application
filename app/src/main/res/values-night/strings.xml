@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">logo</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="name">name</string>
+    <string name="reg_no">reg no</string>
+    <string name="clear">clear</string>
+</resources>
